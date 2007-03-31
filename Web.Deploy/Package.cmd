@@ -9,9 +9,9 @@ if EXIST "%TARGET%" ( rd /s/q "%TARGET%" )
 
 echo Copying Web
 xcopy /S /I "%~dp0..\Web.Deploy\Release\*.*" "%TARGET%"
-echo Copying Sql
-mkdir "%TARGET%\sql"
-copy "%~dp0..\Database\*.*" "%TARGET%\sql"
+rem echo Copying Sql
+rem mkdir "%TARGET%\sql"
+rem copy "%~dp0..\Database\*.*" "%TARGET%\sql"
 
 if EXIST %PROJECTNAME%.zip del %PROJECTNAME%.zip
 bin\zip32 -r %PROJECTNAME%.zip %PROJECTNAME%\*.*

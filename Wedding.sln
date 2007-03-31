@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
-Project("{7DB3DB35-0121-49d7-BD14-5C8252DFC1FF}") = "http://localhost/Wedding/", "http://localhost/Wedding", "{8CE895ED-CDC6-41F0-AE93-2ED257DEC9FB}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://localhost/Wedding/", "http://localhost/Wedding", "{8CE895ED-CDC6-41F0-AE93-2ED257DEC9FB}"
 	ProjectSection(WebsiteProperties) = preProject
 		ProjectReferences = ""
 		Debug.AspNetCompiler.VirtualPath = "/Wedding"

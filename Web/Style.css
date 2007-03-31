@@ -1,0 +1,10 @@
+﻿body { color: #000000; font-family: Arial; font-size: 75%; }    
+a { font-family: Arial; text-decoration: none; }
+.textbox { font-family: Arial; width: 400px; }
+.dropdown { font-family: Arial; width: 400px; }
+.checkbox { font-family: Arial; width: 400px; }
+.upload { font-family: Arial; width: 400px; border: #666666 1px solid; }
+.button { background-color: #dcdcdc; font-family: Arial; border-top: #cccccc 1px solid; border-bottom: #666666 1px solid; border-left: #cccccc 1px solid; border-right: #666666 1px solid; width: 100px; }
+.title { background: url(images/site/title.gif) no-repeat; background-position: 0 50%; font-family: Arial; font-size: 18px; margin-top: 10px; margin-bottom: 10px; padding-left: 20px; font-weight: bold; }
+.subtitle { font-family: Arial; font-size: 12px; margin: 2px 0px 5px 5px; font-weight: bold; }
+.link { margin: 5px; font-family: Arial; font-weight: bold; }
