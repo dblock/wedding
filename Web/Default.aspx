@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" Title="" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" Title="Daniel &amp; Misha Wedding" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -21,7 +21,11 @@
       Brunch Sunday, August 26th, 2007
      </div>
      <div style="margin: 10px;">
-      details &amp; rsvp coming soon | <a href="mailto:dblock@dblock.org">e-mail</a>
+      <a href="Reception.aspx">reception</a> |
+      <a href="Brunch.aspx">brunch</a> |
+      <a href="Rsvp.aspx">rsvp</a> | 
+      <a href="NewYork.aspx">new york</a> |
+      <a href="mailto:dblock@dblock.org">e-mail</a>
      </div>
     </td>
    </tr>
