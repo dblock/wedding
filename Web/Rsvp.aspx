@@ -16,14 +16,6 @@
       WatermarkText="your name" WatermarkCssClass="watermark" />
      <asp:TextBox Width="250" ID="name" runat="server" />
     </div>
-    <asp:Panel ID="panelGuest" runat="server" style="display:none;">
-     <ajaxToolkit:TextBoxWatermarkExtender ID="guest_ex" runat="server" TargetControlID="guest"
-      WatermarkText="your guest's name" WatermarkCssClass="watermark" />
-     <asp:TextBox Width="250" ID="guest" runat="server" />
-    </asp:Panel>
-    <div style="margin-top: 2px;">
-     <asp:LinkButton ID="addguest" Text="&#187; add a guest" runat="server" OnClick="addguest_Click" />
-    </div>
    </div>
    <div style="margin-top: 2px;">
     <ajaxToolkit:TextBoxWatermarkExtender ID="address_ex" runat="server" TargetControlID="address"

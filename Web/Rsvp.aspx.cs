@@ -20,8 +20,6 @@ public partial class Rsvp : Page
             error.Text = Request.QueryString["error"];
             p_error.Visible = !string.IsNullOrEmpty(error.Text);
             name.Text = Request.QueryString["name"];
-            guest.Text = Request.QueryString["guest"];
-            if (!string.IsNullOrEmpty(guest.Text)) addguest_Click(sender, e);
             address.Text = Request.QueryString["address"];
             city.Text = Request.QueryString["city"];
             country.Text = Request.QueryString["country"];
@@ -54,13 +52,6 @@ public partial class Rsvp : Page
         }
     }
 
-    public void addguest_Click(object sender, EventArgs e)
-    {
-        panelGuest.Attributes["style"] = string.Empty;
-        addguest.Attributes["style"] = "display: none;";
-        panelForm.Update();
-    }
-
     public void addcomments_Click(object sender, EventArgs e)
     {
         panelComments.Attributes["style"] = string.Empty;
@@ -83,7 +74,6 @@ public partial class Rsvp : Page
     {
         StringBuilder sb = new StringBuilder();
         sb.AppendFormat("name={0}", HttpUtility.UrlEncode(name.Text));
-        sb.AppendFormat("&guest={0}", HttpUtility.UrlEncode(guest.Text));
         sb.AppendFormat("&none={0}", HttpUtility.UrlEncode(attending_none.Checked.ToString()));
         sb.AppendFormat("&reception={0}", HttpUtility.UrlEncode(attending_reception.Checked.ToString()));
         sb.AppendFormat("&brunch={0}", HttpUtility.UrlEncode(attending_brunch.Checked.ToString()));
@@ -113,10 +103,6 @@ public partial class Rsvp : Page
     {
         StringBuilder sb = new StringBuilder();
         sb.Append(HttpUtility.HtmlEncode(name.Text));
-        if (!string.IsNullOrEmpty(guest.Text))
-        {
-            sb.AppendFormat(" & {0}", guest.Text);
-        }
         if (attending_none.Checked)
         {
             sb.AppendLine();

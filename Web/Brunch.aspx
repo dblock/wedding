@@ -6,8 +6,8 @@
   Brunch
  </h3>
  <p>
-  The brunch is being held on <b>Sunday, August 26th at 1:00pm</b> at the Sheepheads Bay waterfront
-  Paradise Restaurant in Brighton Beach. <b>Attire is casual.</b>
+  The brunch is being held on <b>Sunday, August 26th at 1:00pm</b> at the Sheepshead Bay waterfront
+  Paradise Restaurant near Manhattan Beach. <b>Attire is casual.</b>
  </p>
  <a href="" target="_blank">
  <!--
