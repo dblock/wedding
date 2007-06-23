@@ -25,6 +25,7 @@
       <a href="Brunch.aspx">brunch</a> |
       <a href="Rsvp.aspx">rsvp</a> | 
       <a href="NewYork.aspx">new york</a> |
+      <a href="Accomodations.aspx">accomodations</a> |
       <a href="mailto:dblock@dblock.org">e-mail</a>
      </div>
     </td>

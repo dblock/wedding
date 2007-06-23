@@ -22,6 +22,6 @@
  </p>
  <img src="images/newyork.jpg" />
  <p>
-  We are making hotel arrangements for our guests. Please check back soon. 
+  We have made <a href="Accomodations.aspx">hotel arrangements for our guests</a>.
  </p>
 </asp:Content>
