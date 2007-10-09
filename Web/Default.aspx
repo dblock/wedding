@@ -27,6 +27,7 @@
       <a href="NewYork.aspx">new york</a> |
       <a href="Accomodations.aspx">accomodations</a> |
       <a href="Registry.aspx">registry</a> |
+      <a href="Photos.aspx">photos</a> |
       <a href="mailto:dblock@dblock.org">e-mail</a>
      </div>
     </td>

@@ -9,5 +9,6 @@
   <siteMapNode url="NewYork.aspx" title="New York" />
   <siteMapNode url="Accomodations.aspx" title="Accomodations" />
   <siteMapNode url="Registry.aspx" title="Registry" />
+  <siteMapNode url="Photos.aspx" title="Photos" />
  </siteMapNode>
 </siteMap>
