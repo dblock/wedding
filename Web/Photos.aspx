@@ -3,6 +3,14 @@
 
 <asp:Content ContentPlaceHolderID="ContentPlaceHolder1" ID="content" runat="server">
  <h3>
+  Wedding Photos (August 25th, 2007)
+ </h3>
+ <p>
+  <ul>
+   <li><b><a href="http://www.pictage.com/354006">Wedding Photos</a></b>
+  </ul>
+ </p>
+ <h3>
   Engagement Photos (May 19th, 2007)
  </h3>
  <p>
